@@ -15,6 +15,8 @@
   4. get_best_location.ipynb: 생성된 모델을 이용해 수소충전소 부지로 적합한 LPG 충전소와 주유소를 선정한다.
   5. data_visualization.ipynb: 데이터 시각화를 통해 데이터의 특성을 파악한다.
 
+<br>
+
 ## 메인 데이터셋 설명
 
 `trans_data/combined_grid_centers.csv`는 lat(위도), long(경도) 지점에서 각각의 요소값을 측정한 값이다. 각각의 요소(열)에 대한 설명은 다음과 같다.
@@ -34,4 +36,3 @@
 최적의 수소충전소 위치를 선정하기 위해 hydrogen_distance를 종속변수로 하며 school_distance, baby_school_distance, elderly_center_distance, fire_station_distance, rescue_station_distance, traffic_volume, hydrogen_car_count, population_density 변수를 독립변수로 하는 랜덤 포레스트 회귀 모델을 생성하였다.
 
 이때 현재 설치된 수소충전소가 사회적 합의를 통해 결정된 최적의 위치라고 가졍하였기에 hydrogen_distance 값이 작을수록 적합한 수소충전소 위치로 판단하는 지도학습을 진행하였다.
-# Selecting-the-optimal-hydrogen-charging-station-location
