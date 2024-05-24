@@ -1,0 +1,20 @@
+.env
+data
+shp
+
+.DS_Store
+*/.DS_Store
+**/.DS_Store
+
+__pycache__
+*/__pycache__
+**/__pycache__
+
+# model test
+random_forest_regressor_model_2.pkl
+
+# test
+model_test.ipynb
+model without fire_station.ipynb
+model without fire_station and rescue_station.ipynb
+grid_search_model.ipynb
